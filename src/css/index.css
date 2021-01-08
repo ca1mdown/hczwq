@@ -1,0 +1,284 @@
+.header {
+    width: 1200px;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.main {
+	width: 1920px;
+	margin: 0 auto;
+}
+
+.lunbo {
+  /* float: left; */
+  width: 1920px;
+  height: 500px;
+  position: relative;
+  background-color: purple;
+  overflow: hidden;
+}
+
+.btn-l,
+.btn-r {
+    /* display: none; */
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.btn-r {
+    right: 0;
+}
+
+.lunbo ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1000%;
+  padding: 0;
+  margin: 0;
+}
+
+.lunbo ul li {
+  float: left;
+}
+
+.circle {
+    position: absolute;
+    bottom: 10px;
+    left: 50px;
+}
+
+.circle li {
+    float: left;
+    width: 8px;
+    height: 8px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+}
+
+.current {
+  background-color: #fff;
+}
+
+.footer {
+    width: 100%;
+    background: #fff;
+    padding: 0 0 55px;
+    font-weight: 300;
+    background-color: bisque;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 347px;
+    overflow: hidden;
+}
+
+.menus {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menus li {
+    padding: 0 18px;
+    border-right: 2px solid #eaeaea;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+#last-li {
+    border-right: none;
+}
+
+.shilibaozheng {
+    max-width: 1280px;
+    margin: 0 auto;
+    background-color: coral;
+}
+
+/* .shilibaozheng div {
+    border-style: solid;
+} */
+
+.shilibaozheng-powers {
+    padding-top: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: 90%;
+    margin:0 auto;
+}
+
+.shilibaozheng-power {
+    width: 30%;
+    border: 10px solid white;
+}
+
+    /* .power-img {
+        position: relative;
+    } */
+
+/* .shilibaozheng-power .power-img {
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+} */
+
+/* .shilibaozheng-power .power-text {
+    text-align: center;
+} */
+
+.studyself {
+    width: 100%;
+    height: 819px;
+    /* background: url(/person_study_bg.png) no-repeat 50%; */
+    /* background-size: 1920px 819px; */
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    position: relative;
+    background-color: cornflowerblue;
+}
+
+.studyself-title {
+    text-align: center;
+}
+
+.study-img {
+    width: 320px;
+    height: 320px;
+
+}
+
+.studyself-content {
+    width: 1057px;
+    position: relative;
+    margin: 26px auto 48px;
+    z-index: 30;
+}
+
+.studyself-card {
+    width: 758px;
+    height: 227px;
+    position: absolute;
+    right: 0;
+    top: 47px;
+    border-radius: 4px;
+    box-shadow: 0 2px 21px 0 rgba(0,0,0,.13);
+    background-color: #fff;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 41px;
+    padding-top: 50px;
+    /* border: solid; */
+}
+
+.studyself-card img {
+    width: 372px;
+    height: 110px;
+}
+
+.studyself-button  {
+    width: 162px;
+    height: 51px;
+    background-color: #fdcd00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.studyqiye {
+    width: 100%;
+    height: 819px;
+    /* background: url(/person_study_bg.png) no-repeat 50%; */
+    /* background-size: 1920px 819px; */
+    box-sizing: border-box;
+    margin-bottom: 60px;
+    position: relative;
+    background-color: cornflowerblue;
+}
+
+.studyqiye-title {
+    text-align: center;
+}
+
+.studyqiye-content {
+    width: 1057px;
+    position: relative;
+    margin: 26px auto 48px;
+    z-index: 30;
+}
+
+.studyqiye-card {
+    width: 758px;
+    height: 227px;
+    position: absolute;
+    right: 0;
+    top: 47px;
+    border-radius: 4px;
+    box-shadow: 0 2px 21px 0 rgba(0,0,0,.13);
+    background-color: #fff;
+    display: flex;
+    box-sizing: border-box;
+    padding-left: 41px;
+    padding-top: 50px;
+    /* border: solid; */
+}
+
+.studyqiye-card img {
+    width: 372px;
+    height: 110px;
+}
+
+.studyqiye-button  {
+    width: 162px;
+    height: 51px;
+    background-color: #fdcd00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    color: #000;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+
+.footer-content {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+}
+
