@@ -1,12 +1,22 @@
 .news-list ul {
     padding: 0;
+    margin-bottom: 64px;
 }
 
 .news {
-    width: 1200px;
-    height: 360px;
+    /* width: 1200px; */
+    /* height: 360px; */
+    width: 800px;
     margin-bottom: 20px;
     display: flex;
+    /* border: 1px solid green; */
+    margin: 0 auto 36px auto;
+}
+
+.news-img {
+    width: 280px;
+    /* border: 1px solid green; */
+    margin-top: 10px;
 }
 
 .news-text {
@@ -14,8 +24,8 @@
 }
 
 .news-header {
-    height: 180px;
-    width: 400px;
+    height: 130px;
+    /* width: 400px; */
 
 }
 

@@ -85,6 +85,11 @@ ul, ol {
     font-size: 18px;
 }
 
+
+.menus .active {
+    background: #fdcd00;
+}
+
 #last-li {
     border-right: none;
 }

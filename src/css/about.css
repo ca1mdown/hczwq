@@ -1,12 +1,40 @@
+.tabs {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabs ul {
+    width: 700px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 66px;
+    line-height: 66px;
+    color: #111;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.tabs ul .active {
+    color: #b88248;
+    border-bottom: 2px solid #bf8d5e;
+}
+
+.tabs ul li {
+    padding: 0 10px;
+    cursor: pointer;
+}
+
 .tabs-menus {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    
 }
 
 .tabs-menus li {
     padding: 0 18px;
-    border-right: 2px solid #eaeaea;
     position: relative;
     z-index: 10;
     cursor: pointer;

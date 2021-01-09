@@ -99,6 +99,14 @@
     border: 10px solid white;
 }
 
+.shilibaozheng-power:hover {
+    border-color: #f08519;
+}
+
+.power-text {
+    padding: 28px auto 42px auto;
+}
+
     /* .power-img {
         position: relative;
     } */
