@@ -1,13 +1,37 @@
+html, body {
+    font: 12px Arial, "微软雅黑";
+    color: #666;
+}
+
 a {
     text-decoration: none;
 }
+
+a:visited {
+    color: #333
+}
+
+img {    
+    /* transition: all 0.36s ease; */
+    display: inline;
+    max-width: 100%;
+}
+
 
 ul, ol {
     list-style: none;
 }
 
 .title {
-    font-size: 30px;
+    font-size: 36px;
+    color: #333;
+    margin-right: 10px;
+}
+
+.subtitle {
+    font-size: 14px;
+    color: #bbb;
+    line-height: 26px;
 }
 
 .small-title {
@@ -19,12 +43,20 @@ ul, ol {
 } */
 
 .header {
+    width: 100%;
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    height: 100px;
+    /* background-color: aquamarine; */
+}
+
+.header-content {
     width: 1200px;
     display: flex;
     /* justify-content: space-between; */
     margin: 0 auto;
     height: 100px;
-    background-color: aquamarine;
 }
 
 .logo {
@@ -49,6 +81,8 @@ ul, ol {
     position: relative;
     z-index: 10;
     cursor: pointer;
+    color: #333;
+    font-size: 18px;
 }
 
 #last-li {
@@ -73,5 +107,5 @@ ul, ol {
     background: #fff;
     padding: 0 0 55px;
     font-weight: 300;
-    background-color: bisque;
+    /* background-color: bisque; */
 }

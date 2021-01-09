@@ -1,0 +1,22 @@
+.tabs-menus {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.tabs-menus li {
+    padding: 0 18px;
+    border-right: 2px solid #eaeaea;
+    position: relative;
+    z-index: 10;
+    cursor: pointer;
+}
+
+
+#chuangbanren {
+    border-right: none;
+}
+
+.lichengbei, .jianjie, .chuangbanren {
+    display: none;
+}

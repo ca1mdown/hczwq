@@ -1,0 +1,49 @@
+.content-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    padding-left: 30px;
+}
+
+.video-img {
+    /* width: 80%; */
+    overflow: hidden;
+}
+
+.video-item {
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.video-box {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.vplay-item {
+    margin: 0 auto;
+    width: 70%;
+}
+
+video {
+    width: 100%;
+}
+
+.btn-x {
+    /* display: none; */
+    position: fixed;
+    top: 10px;
+    width: 24px;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 11;
+}
